@@ -1,7 +1,7 @@
 # 类型别名(type)与接口(interface)
 
 <section grid grid-cols-2 gap-x-4>
-<section>
+<section v-click>
   type：用来给类型起一个新的名字，定义类型
 
 ```ts
@@ -24,7 +24,7 @@ type Person = {
 ```
 </section>
 
-<section>
+<section v-click>
 interface: 定义一个对象类型
 
 ```ts

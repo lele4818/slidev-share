@@ -10,14 +10,13 @@ type B = [number, string] // 元组类型
 ```
 </section>
 
-<section v-click>
-
+<section v-click mt-5>
 
 <section grid grid-cols-2 gap-x-4>
 
 ```ts
 interface A {
-  name: string,
+  name: string
 }
 
 interface A {
@@ -32,7 +31,7 @@ const value: A = {
 
 ```ts
 type A = {
-  name: string,
+  name: string
 }
 
 type A = {
@@ -47,5 +46,4 @@ const value: A = {
 // error: 重复定义类型A
 ```
 </section>
-
 </section>
