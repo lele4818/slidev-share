@@ -1,16 +1,24 @@
 ---
-# try also 'default' to start simple
 theme: seriph
 highlighter: shiki
 colorSchema: dark
 class: 'text-center'
 # use UnoCSS (experimental)
 css: unocss
+exportFilename: 'about-typescript.pdf'
 ---
 
 # About Typescript
 
-TypeScript is JavaScript with syntax for types.
+### 覃光明
+
+---
+src: ./pages/目录.md
+---
+
+---
+src: ./pages/0-前言.md
+---
 
 ---
 src: ./pages/1-数据类型.md
@@ -73,18 +81,35 @@ src: ./pages/15-泛型T.md
 ---
 
 ---
-src: ./pages/16-类型常见操作符(01).md
+src: ./pages/16-常见类型操作符(01).md
 --- 
 
 
 --- 
-src: ./pages/17-类型常见操作符(02).md
+src: ./pages/17-常见类型操作符(02).md
 --- 
 
 --- 
-src: ./pages/18-类型常见操作符(03).md
+src: ./pages/18-常见类型操作符(03).md
 --- 
 
 --- 
 src: ./pages/19-断言.md
 --- 
+
+---
+src: ./pages/20-装饰器(01).md
+---
+
+---
+src: ./pages/21-装饰器(02).md
+---
+
+---
+src: ./pages/22-装饰器(03).md
+---
+
+---
+layout: center
+---
+# Thanks !
